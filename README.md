@@ -24,6 +24,14 @@ third-party requests, and it collects no visitor data.
 
 ## Hosting
 
-Any static host works. On Cloudflare Pages or GitHub Pages, publish this folder
-and point a subdomain such as `hub.sdcason.com` at it. Then add an "Everything
-I make" link on each site.
+Served at https://methodiusmedia.com by the Cloudflare Worker `free-catholic-media`.
+`worker.js` runs first on every request: it serves the page, 301-redirects the old
+hostnames (www, gallery., courses.sdcason.com, kids.sdcason.com, rosary.,
+illuminatedrosary.com) and sends every other old path to methodius.media.
+
+Deploy (keeps the custom domains set in the Cloudflare dashboard):
+
+    npx -y wrangler@4.158.0 versions upload
+    npx -y wrangler@4.158.0 versions deploy
+
+Roll back: Cloudflare dashboard → Workers → free-catholic-media → Deployments.
