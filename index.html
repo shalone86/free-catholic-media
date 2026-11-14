@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Free Catholic Media — Pray, see, listen, read and learn</title>
-  <meta name="description" content="Six free Catholic projects in one place: the Illuminated Rosary, the Free Catholic Gallery, Cyril & Methodius Media, the Catholic Sketchbook, Free Catholic Courses and Free Catholic Kids.">
+  <title>Free Catholic Media — Pray, see, listen, read, learn and play</title>
+  <meta name="description" content="Free Catholic projects in one place: the Illuminated Rosary, the Free Catholic Gallery, Cyril & Methodius Media, Catholic Lofi, the Catholic Sketchbook, Free Catholic Courses, Free Catholic Kids, Angelio and Pico Parish.">
   <meta name="theme-color" content="#0d0b09">
   <meta property="og:title" content="Free Catholic Media">
-  <meta property="og:description" content="Pray, see, listen, read and learn. Six free Catholic projects in one place.">
+  <meta property="og:description" content="Pray, see, listen, read, learn and play. Free Catholic projects in one place.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://methodiusmedia.com/">
   <meta property="og:image" content="https://methodiusmedia.com/img/rosary.webp">
@@ -61,6 +61,9 @@
     @media (min-width: 720px) {
       .grid { grid-template-columns: 1fr 1fr; gap: 18px; }
       .tile { aspect-ratio: 4 / 3; max-height: none; }
+      /* An odd tile out at the end spans both columns as a wide banner. */
+      .grid > li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      .grid > li:last-child:nth-child(odd) .tile { aspect-ratio: 2 / 1; }
     }
 
     .tile {
@@ -121,7 +124,7 @@
       <p class="mark" aria-hidden="true">✝</p>
       <p class="eyebrow">Free · Human-made · No accounts</p>
       <h1>Free Catholic Media</h1>
-      <p class="sub">Six quiet places to pray, see, listen, read and learn in the Catholic tradition.</p>
+      <p class="sub">Quiet places to pray, see, listen, read, learn and play in the Catholic tradition.</p>
     </header>
 
     <ul class="grid">
@@ -153,6 +156,15 @@
         </a>
       </li>
       <li>
+        <a class="tile" href="https://catholiclofi.com">
+          <img src="img/lofi.webp" alt="" width="960" height="720" loading="lazy">
+          <p class="verb">Study</p>
+          <h2>Catholic Lofi</h2>
+          <p class="line">Chill beats with sung and spoken prayers, plus the full 2022 archive.</p>
+          <span class="go"><span>Press play <span class="arrow">→</span></span><span class="url">catholiclofi.com</span></span>
+        </a>
+      </li>
+      <li>
         <a class="tile" href="https://catholicsketchbook.com">
           <img src="img/sketchbook.webp" alt="" width="960" height="720" loading="lazy">
           <p class="verb">Read</p>
@@ -177,6 +189,24 @@
           <h2>Free Catholic Kids</h2>
           <p class="line">Bright, cheerful songs, videos and books that teach children the faith.</p>
           <span class="go"><span>Play <span class="arrow">→</span></span><span class="url">kids.methodiusmedia.com</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="tile" href="https://angelio.org">
+          <img src="img/angelio.webp" alt="" width="960" height="720" loading="lazy">
+          <p class="verb">For kids</p>
+          <h2>Angelio</h2>
+          <p class="line">Gentle math, reading and history games that read everything aloud.</p>
+          <span class="go"><span>Learn <span class="arrow">→</span></span><span class="url">angelio.org</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="tile" href="https://picoparish.com">
+          <img src="img/picoparish.webp" alt="" width="960" height="720" loading="lazy">
+          <p class="verb">Play</p>
+          <h2>Pico Parish</h2>
+          <p class="line">Little hand-drawn games about parish life, for one to four players.</p>
+          <span class="go"><span>Play <span class="arrow">→</span></span><span class="url">picoparish.com</span></span>
         </a>
       </li>
     </ul>

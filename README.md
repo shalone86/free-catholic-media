@@ -1,6 +1,6 @@
 # Free Catholic Media (hub page)
 
-One static page that points to the six sites. No build step, no scripts, no
+One static page that points to all the Free Catholic sites. No build step, no scripts, no
 third-party requests, and it collects no visitor data.
 
 - `index.html`: the page, with all CSS inline.
@@ -18,6 +18,9 @@ third-party requests, and it collects no visitor data.
 | `courses.webp` | *Saint Matthew Writing His Gospel*, Carlo Dolci, c. 1670s, cropped ([sdcason.com](https://sdcason.com/saint-matthew-writing-his-gospel-by-carlo-dolci-about-1670s-public-domain-catholic-painting/)) | Public domain |
 | `music.webp` | `hero.jpg` from the methodius.media repo | Same as the Methodius site |
 | `kids.webp` | *The Madonna and Child with the Infant Saint John the Baptist*, Pompeo Batoni, 18th century, cropped ([sdcason.com](https://sdcason.com/the-madonna-and-child-with-the-infant-saint-john-the-baptist-1708-1787-italian-by-pompeo-batoni-public-domain-catholic-painting/)) | Public domain |
+| `lofi.webp` | *King David Playing the Harp*, workshop of Peter Paul Rubens, 1640, cropped ([sdcason.com](https://sdcason.com/king-david-playing-the-harp-1640-belgium-by-workshop-of-peter-paul-rubens-public-domain-catholic-painting/)) | Public domain |
+| `angelio.webp` | *Gloria*, Thomas Wilmer Dewing, 1884, cropped ([sdcason.com](https://sdcason.com/gloria-1884-by-thomas-wilmer-dewing-public-domain-catholic-painting/)) | Public domain |
+| `picoparish.webp` | *The Artist Paints the Church*, Edwin Howland Blashfield, 1870, cropped ([sdcason.com](https://sdcason.com/the-artist-paints-the-church-1870-edwin-howland-blashfield-public-domain-catholic-painting/)) | Public domain |
 
 ## Hosting
 
