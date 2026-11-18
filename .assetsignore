@@ -3,5 +3,6 @@
 node_modules
 README.md
 worker.js
+kids-redirects.js
 wrangler.jsonc
 .assetsignore

@@ -26,8 +26,9 @@ third-party requests, and it collects no visitor data.
 
 Served at https://methodiusmedia.com by the Cloudflare Worker `free-catholic-media`.
 `worker.js` runs first on every request: it serves the page, 301-redirects the old
-hostnames (www, gallery., courses.sdcason.com, kids.sdcason.com, rosary.,
-illuminatedrosary.com) and sends every other old path to methodius.media.
+hostnames (www, gallery., courses.sdcason.com, rosary.,
+illuminatedrosary.com), sends kids.sdcason.com links to the matching page on Angelio
+(`kids-redirects.js`), and sends every other old path to methodius.media.
 
 Deploy (keeps the custom domains set in the Cloudflare dashboard):
 
